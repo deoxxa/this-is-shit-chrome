@@ -1,0 +1,13 @@
+{
+  "name": "This is Shit",
+  "version": "0.1",
+  "description": "Let the world know that something is shit",
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+    "http://thisisshit.info/*"
+  ]
+}
